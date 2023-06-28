@@ -73,7 +73,7 @@ async function fetchDetail(symbol, type) {
     changeActiveItem();
     try {
       let fetchData = await fetch(
-        `https://www.alphavantage.co/query?function=TIME_SERIES_${type}&symbol=${symbol}&interval=5min&apikey=YS523DMEILNTBAU3`
+        `https://www.alphavantage.co/query?function=TIME_SERIES_${type}&symbol=${symbol}&interval=5min&apikey=G2PIG28YN4UWF0Y5`
       );
       let fetchedObj = await fetchData.json();
 
